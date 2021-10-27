@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Manjari&family=Rampart+One&display=swap');
+
+
+*{ 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;}
+body{ 
+ 
+ font-family: 'Manjari', sans-serif;
+font-family: 'Rampart One', cursive;
+	background-color: black;}
+
+main{
+	width: 95%;
+	height: 1300px;	
+	margin-left: auto;
+	margin-right: auto;}
+header{
+	width: 95%;
+	height: 250px;
+	background-color: #9b0e5c;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Rampart One', cursive;
+	border-radius: 20px;}
+
+section{
+	width: 95%;
+	height: 1000px;
+	background-color: #fff6ee;
+	
+	margin-left: auto;
+	margin-right: auto;
+	 font-family: 'Manjari', sans-serif;
+   background-image: url(grandelotso6.png);
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   border-radius: 20px;}
+
+footer{
+	width: 95%;
+	height: 50px;
+	background-color: #9b0e5c; 
+	margin-left: auto;
+	margin-right: auto;
+	 font-family: 'Manjari', sans-serif;
+	 border-radius: 20px;
+
+}  
+ 
+
+/*EMPIEZA 1400 PX*/
+
+
+@media (min-width: 1400px)
+
+{ 
+
+#logolotso{  	
+	           margin-right: 30%; 
+	           }
+#imagen1{  ;
+	float: left; 
+	margin-top: 2%;
+	margin-left: 2%;}
+#imagen2{ float: right;
+	margin-top: 1%;
+	margin-right: 2%;}
+
+#logodisney{ float: right;
+	padding: 1%;
+   margin-top: -2.5%;
+   margin-right: 5px;}
+#parrafos { padding: 30px;
+           column-count: 3;
+           column-gap: 40px;
+           column-rule: 3px solid #ac5e77;
+           font-size: 20pt;}
+#amigoslotso{ float: left	;
+              margin-left: 6%;
+              padding-top: 2.5%;
+
+              }
+
+h4{
+	color: #ac5e77;
+	
+	text-decoration: underline;}
+
+.palabrasnegrita{ color: black;
+   font-weight: bold;}
+
+.logoup{ 
+	float: left;
+	margin-left: 2%;}
+
+#nombre{ 
+	     
+	     margin-left: 48%;
+	     padding-top: 1%;}
+
+#nombre a{ font-size: 7pt;
+	       color: #1e272e;
+	       text-decoration:	none; 
+	       	color: white;}
+
+
+
+}
+
+
+
+/*EMPIEZA 1200 PX*/
+
+@media (min-width: 1200px) 
+
+{ 
+
+#logolotso{  	
+	           margin-right: 30%; 
+	           margin-left: 42%;}
+#imagen1{  
+	float: left; 
+	margin-top: 2%;
+	margin-left: 2%;}
+#imagen2{ float: right;
+	margin-top: 1%;
+	margin-right: 2%;}
+
+#logodisney{ float: right;
+	padding: 1%;
+   margin-top: -2.5%;
+   margin-right: 5px;}
+#parrafos { padding: 30px;
+           column-count: 3;
+           column-gap: 40px;
+           column-rule: 3px solid #ac5e77;
+           font-size: 11pt;}
+#amigoslotso{ float: left	;
+              margin-left: 2%;
+              padding-top: 2%;
+
+              }
+#amigoslotso2{ float: left	;
+              margin-left: 2%;
+              padding-top: 2%;
+              }
+h4{
+	color: #ac5e77;
+	
+	text-decoration: underline;}
+
+.palabrasnegrita{ color: black;
+   font-weight: bold;}
+
+.logoup{ 
+	float: left;
+	margin-left: 2%;}
+
+#nombre{ 
+	     
+	     margin-left: 48%;
+	     padding-top: 1%;}
+
+#nombre a{ font-size: 7pt;
+	       color: #1e272e;
+	       text-decoration:	none; 
+	       	color: white;}
+
+
+
+}
+
+
+
+
+/*EMPIEZA TABLET 768 AHORA*/
+
+
+
+
+
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px){ 
+
+
+	#logolotso{  	
+	           margin-right: 30%;
+	           margin-left: 42% }
+#imagen1{  
+	float: left; 
+	margin-top: 2%;
+	margin-left: 2%;
+   }
+#imagen2{ float: right;
+	margin-top: 1%;
+	margin-right: 2%;}
+
+#logodisney{ float: right;
+	padding: 1%;
+   margin-top: -2.5%;
+   margin-right: 5px;
+}
+#parrafos { padding: 30px;
+           column-count: 2;
+           column-gap: 40px;
+           column-rule: 3px solid #ac5e77;
+           font-size: 11pt;}
+#amigoslotso{ float: left	;
+              margin-left: 2%;
+              visibility: hidden;
+               		
+
+              }
+#amigoslotso2{ float: left	;
+              margin-left: 2%;
+              visibility: hidden;
+               		
+
+              }
+h4{
+	color: #ac5e77;
+	
+	text-decoration: underline;}
+
+.palabrasnegrita{ color: black;
+   font-weight: bold;}
+
+.logoup{ 
+	float: left;
+	margin-left: 2%;
+}
+
+#nombre{ 
+	     
+	     margin-left: 48%;
+	     padding-top: 1%;
+}
+
+#nombre a{ font-size: 7pt;
+	       color: #1e272e;
+	       text-decoration:	none; 
+	       	color: white;}
+
+
+section{
+	width: 95%;
+	height: 1100px;
+	background-color: #fff6ee;
+	
+	margin-left: auto;
+	margin-right: auto;
+	 font-family: 'Manjari', sans-serif;
+   background-image: url(grandelotso6.png);
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   border-radius: 20px;}
+}
+
+
